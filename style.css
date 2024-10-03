@@ -7,5 +7,9 @@
 }
 
 header {
-  border: solid red;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */
