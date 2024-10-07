@@ -16,7 +16,33 @@ header {
 
 main {
   border: solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 main section {
   width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+main section h4 {
+  text-align: center;
+}
+main section p {
+  text-align: justify;
+  margin: 0.5rem;
+}
+main section a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+main section figcaption {
+  text-align: center;
+  font-style: italic;
+}
+main section img {
+  width: 50%;
+  margin: 0.1rem;
 }/*# sourceMappingURL=style.css.map */
