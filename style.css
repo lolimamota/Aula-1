@@ -24,13 +24,14 @@ header {
 main {
   border: solid red;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  overflow: hidden;
   width: 80%;
+  flex-direction: column;
 }
 main section {
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 2rem;
 }
 main section h4 {
   text-align: center;
@@ -51,4 +52,16 @@ main section figcaption {
 main section img {
   width: 50%;
   margin: 0.1rem;
+}
+main .aprimeiraaula {
+  border: solid orange;
+}
+main .comoacessar {
+  border: solid greenyellow;
+}
+main .httphttps {
+  border: solid violet;
+}
+main .construcaosite {
+  border: solid royalblue;
 }/*# sourceMappingURL=style.css.map */

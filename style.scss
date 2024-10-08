@@ -25,13 +25,14 @@ header {
 main {
   border: solid red;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  overflow: hidden;
   width: 80%;
+  flex-direction: column;
 
   section {
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 2rem;
 
     h4 {
       text-align: center;
@@ -67,4 +68,19 @@ main {
     }
   }
 
+  .aprimeiraaula {
+    border: solid orange;
+  }
+
+  .comoacessar {
+    border: solid greenyellow;
+  }
+
+  .httphttps {
+    border: solid violet;
+  }
+
+  .construcaosite {
+    border: solid royalblue;
+  }
 }
